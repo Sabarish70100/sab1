@@ -1,6 +1,6 @@
 import sqlite3
 
-# Connect to SQLite database (or create it if it doesn't exist)
+
 def connect_db():
     return sqlite3.connect('movies.db')
 
